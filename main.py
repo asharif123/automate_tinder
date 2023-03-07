@@ -68,6 +68,7 @@ for i in range(number_of_swipes):
         its_match_window.keys(opening_line)
         time.sleep(1)
 
+
         ##automate send button
         send_message_button = driver.find_element(by="xpath", value='//button[@data-testid="chatSendMessageButton"]')
         time.sleep(1)
